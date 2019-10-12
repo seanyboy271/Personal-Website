@@ -1,0 +1,15 @@
+.spacing{
+    margin-left: 75px;
+    font-size: 2em
+}   
+.padding{
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 0px;
+}
+#page{
+    border-collapse: collapse;
+}
+.bg-custom{
+    background-color: #373a47 !important; 
+}
