@@ -1,23 +1,37 @@
-
 import React, { Component } from "react";
 import './NavBar.css'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class NavBar extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <nav className="navbar navbar-dark bg-custom ">
-          <Link to="/" className="navbar-brand spacing">
-            <h1>
-              Sean Kotrola's Website Extravaganza!
-                <span className="badge badge-secondary">{this.props.x}</span>
-            </h1>
-          </Link>
-        </nav>
-      </React.Fragment>
-    );
-  }
+    render() {
+        return (
+            <React.Fragment>
+
+                <Link to='/' className='logo navbar-brand'>
+                    Logo goes here
+                </Link>
+
+                <nav className="navbar justify-content-center navbar-trans" >
+
+                    
+
+                <Link to="/Bio" className="navbar-brand navbar-item" >
+                    <div className='spacing' >
+                        Bio
+                        </div>
+                </Link >
+
+                <Link to="/About" className="navbar-brand navbar-item" >
+                    <div className='spacing' >
+                        About
+                        </div>
+                </Link >
+
+
+                </nav>
+            </React.Fragment >
+        );
+    }
 }
 
 export default NavBar;

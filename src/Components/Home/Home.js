@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 import Table from '../Table/table.js'
+import Util from '../../Util.js'
+import './Home.css'
 
 
-var data =[
-    {id: 1, name: "sean", value: "beep"}
-]
 class Home extends Component {
     render() {
         return (
             <React.Fragment>
-                <Table data={data}/>
+                    <div className='main-text'>
+                        <h1>
+                            Developer
+                         </h1>
+                    </div>
+                {/* <Table data={data}/> */}
             </React.Fragment>
         );
     }

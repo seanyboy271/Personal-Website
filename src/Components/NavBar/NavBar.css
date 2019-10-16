@@ -1,15 +1,37 @@
-.spacing{
-    margin-left: 75px;
-    font-size: 2em
-}   
-.padding{
+.spacing {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    margin-right: 1em;
+}
+
+.padding {
     padding: 0%;
     margin: 0%;
     margin-bottom: 0px;
 }
-#page{
+
+#page {
     border-collapse: collapse;
 }
-.bg-custom{
-    background-color: #373a47 !important; 
+
+.logo{
+    position: absolute;
+    color: white;
+    z-index: 1;
 }
+
+.logo:hover{
+    color: white;;
+}
+.navbar-item{
+     color: white;
+ }
+
+ .navbar-item:hover{
+     color: whitesmoke
+ }
+
+ .navbar-trans{
+     background: transparent;
+ }
