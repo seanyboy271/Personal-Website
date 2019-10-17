@@ -11,8 +11,8 @@
     background: transparent;
     border-style: solid;
     border-color: black;
-    height: 0.6em;
-    width: 2em;
+    height: auto;
+    width: auto;
 }
 
 .contactButton:hover{
@@ -20,6 +20,6 @@
 }
 
 .contactButtonText{
-    font-size: medium;
+    font-size: 10vw;
     letter-spacing: 0.1em;
 }
