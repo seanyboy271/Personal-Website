@@ -1,25 +1,27 @@
 import React, { Component } from 'react'
 import Home from '../Home/Home.js'
-import Sidebar from '../Sidebar/Sidebar.js'
 import NavBar from '../NavBar/NavBar.js'
 import About from '../About/About'
 import Bio from '../Bio/Bio'
+import Contact from '../Contact/Contact'
 import './app.css'
-import { Helmet } from 'react-helmet';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Helmet from 'react-helmet';
 
 class App extends Component {
     render() {
         return (
             <Router>
-
-                <div className = 'component'>
+                <Helmet>
+                    <style>{'body { background-color: #6F7E85; }'}</style>
+                </Helmet>
+                <div className='component'>
                     <NavBar />
                     <Switch>
                         <Route exact path='/' component={Home} />
                         <Route path='/Bio' component={Bio} />
                         <Route path='/About' component={About} />
-                        {/* <Route path='/' component={Home} /> */}
+                        <Route path = '/Contact' component={Contact}/>
                     </Switch>
                 </div>
             </Router>

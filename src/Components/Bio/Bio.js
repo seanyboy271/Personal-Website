@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './Bio.css'
-import Util from '../../Util.js' 
+import Util from '../../Util.js'
 
 
 class Bio extends Component {
@@ -8,7 +8,9 @@ class Bio extends Component {
         return (
             <React.Fragment>
                 <div className="fit">
-                   {Util.Bio.createBio()}
+                    <p>
+                        {Util.Bio.createBio()}
+                    </p>
                 </div>
             </React.Fragment>
         );

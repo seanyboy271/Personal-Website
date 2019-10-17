@@ -13,19 +13,21 @@ class NavBar extends Component {
 
                 <nav className="navbar justify-content-center navbar-trans" >
 
-                    
 
-                <Link to="/Bio" className="navbar-brand navbar-item" >
-                    <div className='spacing' >
-                        Bio
-                        </div>
-                </Link >
 
-                <Link to="/About" className="navbar-brand navbar-item" >
-                    <div className='spacing' >
-                        About
-                        </div>
-                </Link >
+                    <Link to="/Bio" className="navbar-brand navbar-item" >
+                        <div className='spacing'>
+                            Bio
+                    </div>
+                    </Link >
+
+                    <Link to="/About" className="navbar-brand navbar-item" >
+                        
+                            <div className='spacing'>
+                                About
+                            </div>
+                        
+                    </Link >
 
 
                 </nav>
