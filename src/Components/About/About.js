@@ -1,13 +1,21 @@
 import React, { Component } from "react";
+import './About.css'
+import Util from '../../Util.js'
 
-class About extends Component {
+
+class Bio extends Component {
     render() {
         return (
             <React.Fragment>
-                About me    
+                <div className="fit">
+                    <p>
+                        {Util.Bio.createBio()}
+                        {Util.Bio.createBio()}
+                    </p>
+                </div>
             </React.Fragment>
         );
     }
 }
 
-export default About
+export default Bio;

@@ -15,21 +15,19 @@ class NavBar extends Component {
 
 
 
-                    <Link to="/Bio" className="navbar-brand navbar-item" >
+                    <Link to="/Resume" className="navbar-brand navbar-item" >
                         <div className='spacing'>
-                            Bio
+                            Resume
                     </div>
                     </Link >
 
                     <Link to="/About" className="navbar-brand navbar-item" >
-                        
-                            <div className='spacing'>
-                                About
-                            </div>
-                        
+
+                        <div className='spacing'>
+                            About
+                        </div>
+
                     </Link >
-
-
                 </nav>
             </React.Fragment >
         );
