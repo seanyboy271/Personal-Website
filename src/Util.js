@@ -1,4 +1,4 @@
-//Util file to hold 
+//Util file to hold random functions
 
 var Util = {
     App: {

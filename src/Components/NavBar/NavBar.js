@@ -5,31 +5,33 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 class NavBar extends Component {
     render() {
         return (
-            <React.Fragment>
+            
 
-                <Link to='/' className='logo navbar-brand'>
-                    Logo goes here
-                </Link>
-
-                <nav className="navbar justify-content-center navbar-trans" >
-
-
-
-                    <Link to="/Resume" className="navbar-brand navbar-item" >
-                        <div className='spacing'>
-                            Resume
+                <div id='navbar'>
+                    <Link to='/'>
+                        <div className='logo'>
+                            Logo goes here
                     </div>
-                    </Link >
+                    </Link>
 
-                    <Link to="/About" className="navbar-brand navbar-item" >
+                    <nav className="navbar justify-content-center navbar-trans" >
 
-                        <div className='spacing'>
-                            About
+                        <Link to="/Resume" className="navbar-brand navbar-item" >
+                            <div className='spacing'>
+                                Resume
+                    </div>
+                        </Link >
+
+                        <Link to="/About" className="navbar-brand navbar-item" >
+
+                            <div className='spacing'>
+                                About
                         </div>
 
-                    </Link >
-                </nav>
-            </React.Fragment >
+                        </Link >
+                    </nav>
+                </div>
+            
         );
     }
 }

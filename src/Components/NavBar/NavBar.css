@@ -16,11 +16,38 @@
     border-collapse: collapse;
 }
 
-.logo{
+@media(min-width: 550px){
+.logo {
     position: absolute;
     color: white;
     z-index: 1;
-    font-size: 1.5vh;
+    height: 70px;
+    width: 70px;
+    font-size: 1em auto;
+    word-wrap: break-word;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 0.9em;
+    border-color: black;
+    border-style: solid;
+    }
+}
+
+@media (max-width: 549px){
+    .logo {
+        position: absolute;
+        color: white;
+        z-index: 1;
+        height: 30px;
+        width: 30px;
+        font-size: 1em auto;
+        word-wrap: break-word;
+        margin-top: 1em;
+        margin-left: 1em;
+        font-size: 0.1em;
+        border-color: black;
+        border-style: solid;
+        }
 }
 
 .logo:hover{
@@ -46,4 +73,8 @@
     padding-bottom: 0.2em;
     padding-right: 0.2em;
     padding-left: 0.2em;
+ }
+
+ .navbar{
+     height: 10vh;
  }
