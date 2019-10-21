@@ -37,9 +37,10 @@
     .logo {
         position: absolute;
         z-index: 1;
-        height: 30px;
-        width: 30px;
+        height: 60px;
+        width: 60px;
         background-image: url('../../Images/logoBlack.png');
+        background-size: cover;
         }
 }
 
