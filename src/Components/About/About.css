@@ -10,12 +10,17 @@ p{
     font-size: 1em;
 }
 
-.top{
+.s1{
     height: 100vh;
     background: magenta;
 }
 
-.bottom{
+.s2{
     height: 100vh;
     background: greenyellow;
+}
+
+.s3{
+    height: 100vh;
+    background: orange;
 }

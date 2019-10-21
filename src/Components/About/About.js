@@ -7,16 +7,20 @@ class Bio extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="fit top">
+                <div className="fit s1">
                     
                         Bio Section!
                     
                 </div>
-                <div className="fit bottom">
+                <div className="fit s2">
                     
-                       Project section!
+                       Fun facts
                     
                 </div>
+
+                <div className="fit s3">
+                    Social Media
+             </div>
             </React.Fragment>
         );
     }

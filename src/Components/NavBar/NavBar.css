@@ -6,6 +6,11 @@
 
 }
 
+.absolute{
+    position: absolute;
+    width: 100vw
+}
+
 .padding {
     padding: 0%;
     margin: 0%;
@@ -19,46 +24,34 @@
 @media(min-width: 550px){
 .logo {
     position: absolute;
-    color: white;
     z-index: 1;
-    height: 70px;
-    width: 70px;
-    font-size: 1em auto;
-    word-wrap: break-word;
-    margin-top: 1em;
-    margin-left: 1em;
+    height: 120px;
+    width: 120px;
     font-size: 0.9em;
-    border-color: black;
-    border-style: solid;
-    }
+    background-image: url('../../Images/logoBlack.png');
+    background-size: cover;
+    }   
 }
 
 @media (max-width: 549px){
     .logo {
         position: absolute;
-        color: white;
         z-index: 1;
         height: 30px;
         width: 30px;
-        font-size: 1em auto;
-        word-wrap: break-word;
-        margin-top: 1em;
-        margin-left: 1em;
-        font-size: 0.1em;
-        border-color: black;
-        border-style: solid;
+        background-image: url('../../Images/logoBlack.png');
         }
 }
 
 .logo:hover{
-    color: white;
+    color: rgb(53, 77, 47);
 }
 .navbar-item{
-     color: white;
+     color: rgb(190, 190, 190);
  }
 
  .navbar-item:hover{
-     color: whitesmoke
+     color: rgb(53, 77, 47)
  }
 
  .navbar-trans{
@@ -77,4 +70,5 @@
 
  .navbar{
      height: 10vh;
+
  }

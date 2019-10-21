@@ -1,3 +1,4 @@
+//This section should include Education, Projects, and work experience, and techonologies
 import React, { Component } from "react";
 import './Resume'
 

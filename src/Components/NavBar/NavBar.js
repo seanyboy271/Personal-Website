@@ -7,11 +7,11 @@ class NavBar extends Component {
         return (
             
 
-                <div id='navbar'>
+                <div id='Navbar' className='absolute'>
                     <Link to='/'>
                         <div className='logo'>
-                            Logo goes here
-                    </div>
+                            
+                        </div>
                     </Link>
 
                     <nav className="navbar justify-content-center navbar-trans" >

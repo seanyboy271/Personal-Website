@@ -2,28 +2,39 @@ import React, { Component } from "react";
 import Table from '../Table/table.js'
 import Util from '../../Util.js'
 import './Home.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 class Home extends Component {
     render() {
         return (
-            <React.Fragment>
-                <div className='main-text'>
-                    Developer
-                    <br />
-                    <Link to='contact'>
-                        <button className='contactButton'>
-
-                            <div className='contactButtonText'>
-                                Contact me
-                        </div>
-
-                        </button>
-                    </Link>
+            <div className='homePage'>
+                <div className='section section1'>
+                    <div className='main-text'>
+                        Developer
+                        <br />
+                        <Link to='contact'>
+                            <button className='contactButton'>
+                                <div className='contactButtonText'>
+                                    Contact me
+                                </div>
+                            </button>
+                        </Link>
+                    </div>
                 </div>
-                {/* <Table data={data}/> */}
-            </React.Fragment>
+
+
+                <div className='section section2'>
+                    <div className='main-text'>
+                        Who I am
+                        <div className='sub-text'>
+                            {Util.Bio.createBio()}
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         );
     }
 }

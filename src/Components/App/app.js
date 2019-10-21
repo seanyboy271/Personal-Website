@@ -16,7 +16,6 @@ class App extends Component {
                 <Helmet>
                     <style>{'body { background-color: #6F7E85; }'}</style>
                 </Helmet>
-                <div className='component'>
                     <NavBar />
                     <Switch>
                         <Route exact path='/' component={Home} />
@@ -24,7 +23,6 @@ class App extends Component {
                         <Route path='/About' component={About} />
                         <Route path = '/Contact' component={Contact}/>
                     </Switch>
-                </div>
             </Router>
         );
     }
