@@ -39,12 +39,17 @@
 
 @media (max-width: 549px){
     .logo {
+        margin-top: 0.9vh !important;
+        margin-left: 1vw;
         position: absolute;
+        margin-top: 0;
         z-index: 1;
-        height: 60px;
-        width: 60px;
-        background-image: url('../../Images/logoBlack.png');
+        height: 45px;
+        width: 45px;
+        font-size: 0.9em;
+        background-image: url('../../Images/logoV4Black.png');
         background-size: cover;
+        opacity: 0.8;
         }
 }
 
