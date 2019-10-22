@@ -14,7 +14,7 @@ class NavBar extends Component {
                         </div>
                     </Link>
 
-                    <nav className="navbar justify-content-center navbar-trans" >
+                    <nav id='navbar' className="navbar justify-content-center navbar-trans" >
 
                         <Link to="/Resume" className="navbar-brand navbar-item" >
                             <div className='spacing'>
@@ -35,5 +35,6 @@ class NavBar extends Component {
         );
     }
 }
+
 
 export default NavBar;
