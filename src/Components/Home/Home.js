@@ -25,11 +25,12 @@ class Home extends Component {
 
 
                 <div className='section section2'>
-                    <div className='main-text'>
+                    <div className='main-text-section2'>
                         Who I am
-                        <div className='sub-text'>
-                            {Util.Bio.createBio()}
-                        </div>
+                    </div>
+
+                    <div className='sub-text'>
+                        {Util.Bio.createBio()}
                     </div>
 
 

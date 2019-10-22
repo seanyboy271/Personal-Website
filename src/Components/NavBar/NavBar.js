@@ -19,7 +19,7 @@ class NavBar extends Component {
                         <Link to="/Resume" className="navbar-brand navbar-item" >
                             <div className='spacing'>
                                 Resume
-                    </div>
+                            </div>
                         </Link >
 
                         <Link to="/About" className="navbar-brand navbar-item" >
