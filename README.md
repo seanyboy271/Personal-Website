@@ -1,6 +1,6 @@
-Currently in development!
+Currently in development! I am updating the website periodically, but the most recent version will always be here!
 
-Hosted by Surge at http://seankotrolareacttest.surge.sh/
+Hosted by Surge at http://seankotrolasurge.sh/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
