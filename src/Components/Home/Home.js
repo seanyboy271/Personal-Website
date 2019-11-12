@@ -13,6 +13,7 @@ class Home extends Component {
     }
 
     render() {
+
         return (
             <div className='homePage'>
                 <div className='section section1'>

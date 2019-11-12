@@ -13,9 +13,6 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <Helmet>
-                    <style>{'body { background-color: #6F7E85; }'}</style>
-                </Helmet>
                     <NavBar />
                     <Switch>
                         <Route exact path='/' component={Home} />
