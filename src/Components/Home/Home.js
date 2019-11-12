@@ -8,13 +8,19 @@ import { Link } from 'react-router-dom'
 
 class Home extends Component {
 
+    constructor(props){
+        super(props);
+    }
+
     render() {
         return (
             <div className='homePage'>
                 <div className='section section1'>
-                    <div className='main-text fade-in-main'>
-                        Developer
-                        <br />
+                    <div className='main-text'>
+                        <div className='fade-in-main'>
+                            Developer
+                            <br />
+                        </div>
                         <Link to='contact'>
                             <button className='contactButton fade-in-button'>
                                 <div className='contactButtonText'>
@@ -41,6 +47,7 @@ class Home extends Component {
             </div>
         );
     }
+
 }
 
 export default Home
