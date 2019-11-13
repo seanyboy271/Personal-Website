@@ -51,7 +51,10 @@
     padding-left: .2em;
     padding-right: .2em;
     font-size: 1.2em;
+}
 
+.noUnderline:hover{
+    text-decoration: none;
 }
 
 .contactButton:hover{
@@ -61,7 +64,9 @@
 .contactButtonText{
     font-size: 0.4em;
     letter-spacing: 0.1em;
+    color: black;
 }
+
 
 .section2{
     background: blanchedalmond;

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 class Home extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
     }
 
@@ -22,13 +22,13 @@ class Home extends Component {
                             Developer
                             <br />
                         </div>
-                        <Link to='contact'>
-                            <button className='contactButton fade-in-button'>
+                        <button className='contactButton fade-in-button'>
+                            <Link to='contact' className="noUnderline">
                                 <div className='contactButtonText'>
                                     Contact me
                                 </div>
-                            </button>
-                        </Link>
+                            </Link>
+                        </button>
                     </div>
                 </div>
 
