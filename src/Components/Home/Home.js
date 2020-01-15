@@ -12,6 +12,16 @@ class Home extends Component {
         super(props);
     }
 
+    
+    scrollToContact() {
+        let contactComponent = document.getElementById("contactComponent");
+        console.log(contactComponent)
+        if (contactComponent !== null) {
+            contactComponent.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })
+        }
+    }
+
+
     render() {
 
         return (
@@ -22,18 +32,16 @@ class Home extends Component {
                             Developer
                             <br />
                         </div>
-                        <button className='contactButton fade-in-button'>
-                            <Link to='contact' className="noUnderline">
+                        <button className='contactButton fade-in-button' onClick = {() => this.scrollToContact()}>
                                 <div className='contactButtonText'>
                                     Contact me
                                 </div>
-                            </Link>
                         </button>
                     </div>
                 </div>
 
 
-                <div className='bottom-section'>
+                <div className='bottom-section' id="AboutSection">
                     <div className='section2'>
                         <div className='main-text-section2'>
                             Who I am

@@ -1,9 +1,7 @@
 .spacing {
-    font-size: 2.5vh;
+    font-size: 2.5vh !important;
     letter-spacing: 0.3em;
-    margin: 0 auto;
-    margin-right: 1.6em;
-
+    margin-right: 3% !important;
 }
 
 .absolute{
@@ -35,6 +33,7 @@
     background-image: url('../../Images/logoV4Black.png');
     background-size: cover;
     opacity: 0.8;
+    cursor: pointer;
     }   
 }
 
@@ -54,11 +53,9 @@
         }
 }
 
-.logo:hover{
-    color: rgb(53, 77, 47);
-}
 .navbar-item{
      color: rgb(0, 0, 0);
+     cursor: pointer;
  }
 
  .navbar-item:hover{
