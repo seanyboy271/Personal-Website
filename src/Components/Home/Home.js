@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Table from '../Table/table.js'
-import Util from '../../Util.js'
+
 import './Home.css'
 import { Link } from 'react-router-dom'
 
@@ -28,7 +28,7 @@ class Home extends Component {
             <div className='homePage'>
                 <div className='section section1'>
                     <div className='main-text'>
-                        <div className='fade-in-main'>
+                        <div className='fade-in-main simple'>
                             Developer
                             <br />
                         </div>
@@ -37,20 +37,6 @@ class Home extends Component {
                                     Contact me
                                 </div>
                         </button>
-                    </div>
-                </div>
-
-
-                <div className='bottom-section' id="AboutSection">
-                    <div className='section2'>
-                        <div className='main-text-section2'>
-                            Who I am
-                        </div>
-
-                        <div className='sub-text'>
-                            {Util.Bio.createBio()}
-                        </div>
-
                     </div>
                 </div>
             </div>
